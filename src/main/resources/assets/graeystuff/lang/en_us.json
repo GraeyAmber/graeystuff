@@ -1,0 +1,17 @@
+{
+  "item.graeystuff.raw_nickel": "Raw Nickel",
+  "item.graeystuff.ingot_nickel": "Nickel Ingot",
+  "item.graeystuff.nugget_nickel": "Nickel Nugget",
+  "item.graeystuff.nugget_copper": "Copper Nugget",
+
+  "item.graeystuff.flute": "Flute",
+
+  "block.graeystuff.nickel_block": "Block of Nickel",
+  "block.graeystuff.raw_nickel_block": "Block of Raw Nickel",
+  "block.graeystuff.nickel_ore": "Nickel Ore",
+  "block.graeystuff.deepslate_nickel_ore": "Deepslate Nickel Ore",
+
+  "block.graeystuff.redstone_gauge_block": "Redstone Gauge Block",
+
+  "creativetab.graeystuff_tab": "GraeyStuff Tab"
+}
