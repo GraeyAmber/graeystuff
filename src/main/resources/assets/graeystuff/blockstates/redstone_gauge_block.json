@@ -1,52 +1,52 @@
 {
   "variants": {
-    "signal=0": {
-      "model": "graeystuff:block/redstone_gauge_0"
+    "power=0": {
+      "model": "graeystuff:block/redstone_gauge_block_0"
     },
-    "signal=1": {
-      "model": "graeystuff:block/redstone_gauge_1"
+    "power=1": {
+      "model": "graeystuff:block/redstone_gauge_block_1"
     },
-    "signal=2": {
-      "model": "graeystuff:block/redstone_gauge_2"
+    "power=2": {
+      "model": "graeystuff:block/redstone_gauge_block_2"
     },
-    "signal=3": {
-      "model": "graeystuff:block/redstone_gauge_3"
+    "power=3": {
+      "model": "graeystuff:block/redstone_gauge_block_3"
     },
-    "signal=4": {
-      "model": "graeystuff:block/redstone_gauge_4"
+    "power=4": {
+      "model": "graeystuff:block/redstone_gauge_block_4"
     },
-    "signal=5": {
-      "model": "graeystuff:block/redstone_gauge_5"
+    "power=5": {
+      "model": "graeystuff:block/redstone_gauge_block_5"
     },
-    "signal=6": {
-      "model": "graeystuff:block/redstone_gauge_6"
+    "power=6": {
+      "model": "graeystuff:block/redstone_gauge_block_6"
     },
-    "signal=7": {
-      "model": "graeystuff:block/redstone_gauge_7"
+    "power=7": {
+      "model": "graeystuff:block/redstone_gauge_block_7"
     },
-    "signal=8": {
-      "model": "graeystuff:block/redstone_gauge_8"
+    "power=8": {
+      "model": "graeystuff:block/redstone_gauge_block_8"
     },
-    "signal=9": {
-      "model": "graeystuff:block/redstone_gauge_9"
+    "power=9": {
+      "model": "graeystuff:block/redstone_gauge_block_9"
     },
-    "signal=10": {
-      "model": "graeystuff:block/redstone_gauge_10"
+    "power=10": {
+      "model": "graeystuff:block/redstone_gauge_block_10"
     },
-    "signal=11": {
-      "model": "graeystuff:block/redstone_gauge_11"
+    "power=11": {
+      "model": "graeystuff:block/redstone_gauge_block_11"
     },
-    "signal=12": {
-      "model": "graeystuff:block/redstone_gauge_12"
+    "power=12": {
+      "model": "graeystuff:block/redstone_gauge_block_12"
     },
-    "signal=13": {
-      "model": "graeystuff:block/redstone_gauge_13"
+    "power=13": {
+      "model": "graeystuff:block/redstone_gauge_block_13"
     },
-    "signal=14": {
-      "model": "graeystuff:block/redstone_gauge_14"
+    "power=14": {
+      "model": "graeystuff:block/redstone_gauge_block_14"
     },
-    "signal=15": {
-      "model": "graeystuff:block/redstone_gauge_15"
+    "power=15": {
+      "model": "graeystuff:block/redstone_gauge_block_15"
     }
   }
 }
