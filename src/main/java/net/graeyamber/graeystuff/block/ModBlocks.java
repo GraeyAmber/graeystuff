@@ -32,6 +32,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.DEEPSLATE)));
 
     // custom blocks
+
+    /*this one is still WIP and doesn't work*/
     public static final RegistryObject<Block> REDSTONE_GAUGE_BLOCK = registerBlock("redstone_gauge_block",
             () -> new RedstoneGaugeBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.METAL)));
 

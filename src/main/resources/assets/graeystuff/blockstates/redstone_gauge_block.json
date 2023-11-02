@@ -1,52 +1,52 @@
 {
   "variants": {
     "signal=0": {
-      "model": "minecraft:block/redstone_gauge_0"
+      "model": "graeystuff:block/redstone_gauge_0"
     },
     "signal=1": {
-      "model": "minecraft:block/redstone_gauge_1"
+      "model": "graeystuff:block/redstone_gauge_1"
     },
     "signal=2": {
-      "model": "minecraft:block/redstone_gauge_2"
+      "model": "graeystuff:block/redstone_gauge_2"
     },
     "signal=3": {
-      "model": "minecraft:block/redstone_gauge_3"
+      "model": "graeystuff:block/redstone_gauge_3"
     },
     "signal=4": {
-      "model": "minecraft:block/redstone_gauge_4"
+      "model": "graeystuff:block/redstone_gauge_4"
     },
     "signal=5": {
-      "model": "minecraft:block/redstone_gauge_5"
+      "model": "graeystuff:block/redstone_gauge_5"
     },
     "signal=6": {
-      "model": "minecraft:block/redstone_gauge_6"
+      "model": "graeystuff:block/redstone_gauge_6"
     },
     "signal=7": {
-      "model": "minecraft:block/redstone_gauge_7"
+      "model": "graeystuff:block/redstone_gauge_7"
     },
     "signal=8": {
-      "model": "minecraft:block/redstone_gauge_8"
+      "model": "graeystuff:block/redstone_gauge_8"
     },
     "signal=9": {
-      "model": "minecraft:block/redstone_gauge_9"
+      "model": "graeystuff:block/redstone_gauge_9"
     },
     "signal=10": {
-      "model": "minecraft:block/redstone_gauge_10"
+      "model": "graeystuff:block/redstone_gauge_10"
     },
     "signal=11": {
-      "model": "minecraft:block/redstone_gauge_11"
+      "model": "graeystuff:block/redstone_gauge_11"
     },
     "signal=12": {
-      "model": "minecraft:block/redstone_gauge_12"
+      "model": "graeystuff:block/redstone_gauge_12"
     },
     "signal=13": {
-      "model": "minecraft:block/redstone_gauge_13"
+      "model": "graeystuff:block/redstone_gauge_13"
     },
     "signal=14": {
-      "model": "minecraft:block/redstone_gauge_14"
+      "model": "graeystuff:block/redstone_gauge_14"
     },
     "signal=15": {
-      "model": "minecraft:block/redstone_gauge_15"
+      "model": "graeystuff:block/redstone_gauge_15"
     }
   }
 }

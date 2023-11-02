@@ -15,26 +15,26 @@ import javax.annotation.Nullable;
 
 public class RedstoneGaugeBlock extends Block {
 
-    public static final IntegerProperty SIGNAL = BlockStateProperties.POWER; // better than before I think
+    public static final IntegerProperty POWER = BlockStateProperties.POWER;
     public RedstoneGaugeBlock(Properties pProperties) {
         super(pProperties);
-        this.registerDefaultState(this.defaultBlockState().setValue(SIGNAL, Integer.valueOf(0)));
+        this.registerDefaultState(this.defaultBlockState().setValue(POWER, Integer.valueOf(0)));
     }
 
     @Nullable
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
-        return this.defaultBlockState().setValue(SIGNAL, Integer.valueOf(0)); // ??? IDK act 2
+        return this.defaultBlockState().setValue(POWER, Integer.valueOf(0));
     }
 
     public void neighborChanged(BlockState pState, Level pLevel, BlockPos pPos, Block pBlock, BlockPos pFromPos, boolean pIsMoving) {
         if (!pLevel.isClientSide) {
-            boolean flag = pState.getValue(SIGNAL) > 0;
-            // if powered not equals neighbor signal
+            boolean flag = pState.getValue(POWER) > 0;
+            // if "powered value" not equals "neighbor signal"
             if (flag != pLevel.hasNeighborSignal(pPos)) {
                 if (flag) {
                     pLevel.scheduleTick(pPos, this, 4);
                 } else {
-                    pLevel.setBlock(pPos, pState.setValue(SIGNAL, pLevel.getBestNeighborSignal(pPos)), 2);
+                    pLevel.setBlock(pPos, pState.setValue(POWER, pLevel.getBestNeighborSignal(pPos)), 2);
                 }
             }
 
@@ -42,14 +42,14 @@ public class RedstoneGaugeBlock extends Block {
     }
 
     public void tick(BlockState pState, ServerLevel pLevel, BlockPos pPos, RandomSource pRandom) {
-        // if powered but no signal
-        if (pState.getValue(SIGNAL) > 0 && !pLevel.hasNeighborSignal(pPos)) {
-            pLevel.setBlock(pPos, pState.setValue(SIGNAL, 0), 2);
+        // if powered but no neighbor signal
+        if (pState.getValue(POWER) > 0 && !pLevel.hasNeighborSignal(pPos)) {
+            pLevel.setBlock(pPos, pState.setValue(POWER, 0), 2);
         }
 
     }
 
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
-        pBuilder.add(SIGNAL);
+        pBuilder.add(POWER);
     }
 }

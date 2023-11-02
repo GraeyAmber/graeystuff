@@ -29,7 +29,6 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.NICKEL_BLOCK.get());
                         pOutput.accept(ModBlocks.NICKEL_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_NICKEL_ORE.get());
-
                         pOutput.accept(ModBlocks.REDSTONE_GAUGE_BLOCK.get());
                     }).build());
 
