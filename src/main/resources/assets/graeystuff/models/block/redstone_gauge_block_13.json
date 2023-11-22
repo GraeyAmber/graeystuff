@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "minecraft:block/redstone_gauge_block"
+    "all": "graeystuff:block/redstone_gauge_block_13"
   }
 }
